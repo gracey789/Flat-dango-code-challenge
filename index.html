@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>TicketCity</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"
+    />
+    <link rel="stylesheet" href="assets/index.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="heading">
+      <div class="item">
+        <h2 class="ui header">
+          <i class="orange ticket icon"></i>
+          <div class="content">FLATDANGO TICKETCITY</div>
+          <div class="sub header" id="subtitle">PURCHASE MOVIE TICKETS</div>
+        </h2>
+      </div>
+    </div>
+
+    <div class="ui centered grid">
+      <div class="four wide column">
+        <div class="list-container">
+          <!-- side menu -->
+          <ul class="ui divided list" id="films">
+            <li class="film item">🇦‌🇸‌🇵‌🇭‌🇦‌🇱‌🇹‌ 🇨‌🇮‌🇹‌🇾‌</li>
+            <li class="film item">🇦‌🇷‌🇬‌🇾‌🇱‌🇱‌🇪‌</li>
+            <li class="film item">🇲‌🇦‌🇩‌🇦‌🇲‌🇪‌ 🇼‌🇪‌🇧‌</li>
+            <li class="film item">🇸‌🇵‌🇦‌🇨‌🇪‌🇲‌🇦‌🇳‌</li>
+            <li class="film item">🇨‌🇴‌🇩‌🇪‌ 8️⃣: 🇵‌🇦‌🇷‌🇹‌ 🇮‌🇮‌</li>
+            <li class="film item">🇩‌🇦‌🇲‌🇸‌🇪‌🇱‌</li>
+            <li class="film item">🇱‌🇴‌🇻‌🇪‌ 🇱‌🇮‌🇪‌🇸‌ 🇧‌🇱‌🇪‌🇪‌🇩‌🇮‌🇳‌🇬‌</li>
+            <li class="film item">🇷‌🇴‌🇦‌🇩‌ 🇭‌🇴‌🇺‌🇸‌🇪</li>
+            <li class="film item">🇬‌🇴‌🇩‌🇿‌🇮‌🇱‌🇱‌🇦‌ 🇽‌ 🇰‌🇴‌🇳‌🇬‌</li>
+            <li class="film item">🇸‌🇹‌🇴‌🇵‌🇲‌🇴‌🇹‌🇮‌🇴‌🇳‌</li>
+            <li class="film item">🇵‌🇦‌🇷‌🇦‌🇸‌🇾‌🇹‌🇪‌: 🇹‌🇭‌🇪‌ 🇬‌🇷‌🇪‌🇾‌</li>
+            <li class="film item">🇸‌🇨‌🇴‌🇴‌🇵</li>
+            <li class="film item">🇩‌🇪‌🇦‌🇩‌ 🇧‌🇴‌🇾‌ 🇩‌🇪‌🇹‌🇪‌🇨‌🇹‌🇮‌🇻‌🇪‌🇸‌</li>
+            <li class="film item">🇷‌🇪‌🇧‌🇪‌🇱‌ 🇲‌🇴‌🇴‌🇳‌: 🇵‌🇦‌🇷‌🇹‌ 🇮‌🇮‌</li>
+            <li class="film item">🇷‌🇮‌🇵‌🇱‌🇪‌🇾‌</li>
+            <li class="film item">🇺‌🇳‌🇱‌🇴‌🇨‌🇰‌🇪‌🇩‌: 🇦‌ 🇯‌🇦‌🇮‌🇱‌ 🇪‌🇽‌🇵‌🇪‌🇷‌🇮‌🇲‌🇪‌🇳‌🇹‌</li>
+            <li class="film item">🇨‌🇷‌🇴‌🇴‌🇰‌🇸‌</li>
+            <li class="film item">🇼‌🇭‌🇦‌🇹‌ 🇯‌🇪‌🇳‌🇳‌🇮‌🇫‌🇪‌🇷‌ 🇩‌🇮‌🇩‌</li>
+            <li class="film item">🇧‌🇦‌🇧‌🇾‌ 🇷‌🇪‌🇮‌🇳‌🇩‌🇪‌🇪‌🇷‌</li>
+            <li class="film item">🇦‌🇳‌🇹‌🇭‌🇷‌🇦‌🇨‌🇮‌🇹‌🇪‌</li>
+            <li class="film item">🇻‌🇮‌🇰‌🇮‌🇳‌🇬‌🇸‌</li>
+            <li class="film item">🇲‌🇷‌. 🇷‌🇴‌🇧‌🇴‌🇹‌</li>
+            <li class="film item">🇨‌🇭‌🇪‌🇷‌🇳‌🇴‌🇧‌🇾‌🇱‌</li>
+            <li class="film item">🇸‌🇹‌🇷‌🇦‌🇳‌🇬‌🇪‌🇷‌ 🇹‌🇭‌🇮‌🇳‌🇬‌🇸‌</li>
+            <li class="film item">🇩‌🇦‌🇷‌🇰‌</li>
+            <li class="film item">🇧‌🇪‌🇹‌🇹‌🇪‌🇷‌ 🇨‌🇦‌🇱‌🇱‌ 🇸‌🇦‌🇺‌🇱‌</li>
+            <li class="film item">🇵‌🇪‌🇦‌🇰‌🇾‌ 🇧‌🇱‌🇮‌🇳‌🇩‌🇪‌🇷‌🇸‌</li>
+            <li class="film item">🇬‌🇦‌🇲‌🇪‌ 🇴‌🇫‌ 🇹‌🇭‌🇷‌🇴‌🇳‌🇪‌🇸‌</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- poster -->
+      <div class="five wide column">
+        <img
+          id="poster"
+          src="grace/ASPHALT.jpg"
+          alt="[ASPHALT CITY]"
+          width="700"
+          height="800"
+        />
+      </div>
+
+      <!-- showing info -->
+      <div class="four wide column">
+        <div class="ui cards" id="showing">
+          <div class="card">
+            <div id="title" class="title">🇦‌🇸‌🇵‌🇭‌🇦‌🇱‌🇹‌  🇨‌🇮‌🇹‌🇾‌ 🛩</div>
+            <div id="runtime" class="meta">1hr 12minutes</div>
+            <div class="content">
+              <div class="description">
+                <div style="color:tomato;" id="film-info">A young paramedic gets a crash course in lifesaving techniques while working with a grizzled New York City veteran.</div>
+                <span id="showtime" class="ui label">3:00hrs</span>
+                <!-- <span id="ticket-num">12</span> remaining tickets -->
+              </div>
+              <div class="container">
+                <h1>Time Left:</h1>
+                <div id="timer"></div>
+              </div>
+            </div>
+            <div class="extra content">
+              <p>Available Tickets: <span id="tickets-available">50</span></p>
+              <button id="Purchase-Ticket" class="ui orange button">
+                Purchase Ticket
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
